@@ -1,12 +1,7 @@
-/* Si considero que ha habido un error tipográfico en el enunciado (cambiando "primer elemento" por "primer-elemento") el código quedaría tal que:
-
-#primer-elemento { 
+/* Enunciado confuso corrijo código*/
+#elemento-1 {
     color: red;
 }
-*/
-ol ul, li:first-child {
-    color: red;
-}
-ul > li:first-child {
+ul li#elemento-1{
     font-size: 2rem;
 }
