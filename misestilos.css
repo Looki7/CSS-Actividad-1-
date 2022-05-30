@@ -1,0 +1,12 @@
+/* Si considero que ha habido un error tipográfico en el enunciado (cambiando "primer elemento" por "primer-elemento") el código quedaría tal que:
+
+#primer-elemento { 
+    color: red;
+}
+*/
+ol ul, li:first-child {
+    color: red;
+}
+ul > li:first-child {
+    font-size: 2rem;
+}
